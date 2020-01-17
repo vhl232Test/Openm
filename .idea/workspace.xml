@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b919bf0-c04b-416d-9f7c-0ed9ec350d66" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WRCJk87q70PJ4iZz1aqrZidhuT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="TestNG.RegisterPatientClass">
+    <configuration name="LogOutClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="practis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.openmrs.testClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.openmrs.testClasses" />
+      <option name="MAIN_CLASS_NAME" value="demo.openmrs.testClasses.LogOutClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPatientClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="practis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.openmrs.testClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.openmrs.testClasses" />
+      <option name="MAIN_CLASS_NAME" value="demo.openmrs.testClasses.RegisterPatientClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="practis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.openmrs.pageObjectClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.openmrs" />
+      <option name="MAIN_CLASS_NAME" value="demo.openmrs.testClasses.SignInClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyTitleLoginClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="practis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.openmrs.pageObjectClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.openmrs" />
+      <option name="MAIN_CLASS_NAME" value="demo.openmrs.testClasses.VerifyTitleLoginClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RegisterPatientClass" />
+        <item itemvalue="TestNG.LogOutClass" />
+        <item itemvalue="TestNG.SignInClass" />
+        <item itemvalue="TestNG.VerifyTitleLoginClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b919bf0-c04b-416d-9f7c-0ed9ec350d66" name="Default Changelist" comment="" />
+      <created>1579102950349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579102950349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="433" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579106949322">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="433" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1579106949322" />
+    <state x="485" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1579192249275">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="485" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1579192249275" />
+    <state x="388" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579176333594">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="388" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1360.728@0.0.1360.728" timestamp="1579176333594" />
+    <state x="371" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579108627698">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="371" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728@0.0.1360.728" timestamp="1579108627698" />
+    <state width="1280" height="156" key="GridCell.Tab.0.bottom" timestamp="1579192376465">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="156" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1579192376465" />
+    <state width="1280" height="156" key="GridCell.Tab.0.center" timestamp="1579192376465">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="156" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1579192376465" />
+    <state width="1280" height="156" key="GridCell.Tab.0.left" timestamp="1579192376464">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="156" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1579192376464" />
+    <state width="1280" height="156" key="GridCell.Tab.0.right" timestamp="1579192376465">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="156" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1579192376465" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1579105497753">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="160" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1579105497753" />
+    <state x="375" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579173502212">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="375" y="186" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1579173502212" />
+  </component>
+</project>

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b919bf0-c04b-416d-9f7c-0ed9ec350d66" name="Default Changelist" comment="" />
+    <list default="true" id="7b919bf0-c04b-416d-9f7c-0ed9ec350d66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/openmrs/pageObjectClasses/FindRecordPatientPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/openmrs/pageObjectClasses/PatientDataPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/openmrs/testClasses/FindPatientRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/IdPatient" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/IdPatient" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/openmrs/pageObjectClasses/PatientDataPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/openmrs/pageObjectClasses/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/openmrs/pageObjectClasses/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/openmrs/testClasses/RegisterPatientClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/openmrs/testClasses/RegisterPatientClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/DataForTest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DataForTest.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataForTest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataForTest.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/openmrs/pageObjectClasses/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/openmrs/pageObjectClasses/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/openmrs/testClasses/RegisterPatientClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/openmrs/testClasses/RegisterPatientClass.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +28,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,12 +47,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.RegisterPatientClass">
+  <component name="RunManager" selected="TestNG.FindPatientRecord">
+    <configuration name="FindPatientRecord" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="practis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.openmrs.testClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.openmrs.testClasses" />
+      <option name="MAIN_CLASS_NAME" value="demo.openmrs.testClasses.FindPatientRecord" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogOutClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="practis" />
       <extension name="coverage">
@@ -105,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FindPatientRecord" />
         <item itemvalue="TestNG.RegisterPatientClass" />
         <item itemvalue="TestNG.LogOutClass" />
         <item itemvalue="TestNG.SignInClass" />
@@ -138,14 +175,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="433" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579106949322">
+    <state x="433" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580812679191">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="433" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1579106949322" />
-    <state x="485" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1579192249275">
+    <state x="433" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1580812679191" />
+    <state x="485" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1580823991516">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="485" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1579192249275" />
+    <state x="485" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1580823991516" />
     <state x="388" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579176333594">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -154,29 +191,53 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="371" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728@0.0.1360.728" timestamp="1579108627698" />
-    <state width="1280" height="156" key="GridCell.Tab.0.bottom" timestamp="1579192376465">
+    <state x="460" y="80" key="FileChooserDialogImpl" timestamp="1580288543729">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="156" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1579192376465" />
-    <state width="1280" height="156" key="GridCell.Tab.0.center" timestamp="1579192376465">
+    <state x="460" y="80" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1580288543729" />
+    <state width="1280" height="156" key="GridCell.Tab.0.bottom" timestamp="1580825168682">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="156" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1579192376465" />
-    <state width="1280" height="156" key="GridCell.Tab.0.left" timestamp="1579192376464">
+    <state width="1280" height="156" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1580825168682" />
+    <state width="1280" height="156" key="GridCell.Tab.0.center" timestamp="1580825168682">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="156" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1579192376464" />
-    <state width="1280" height="156" key="GridCell.Tab.0.right" timestamp="1579192376465">
+    <state width="1280" height="156" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1580825168682" />
+    <state width="1280" height="156" key="GridCell.Tab.0.left" timestamp="1580825168681">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="156" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1579192376465" />
+    <state width="1280" height="156" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1580825168681" />
+    <state width="1280" height="156" key="GridCell.Tab.0.right" timestamp="1580825168682">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="156" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1580825168682" />
+    <state width="1280" height="195" key="GridCell.Tab.1.bottom" timestamp="1580814537293">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="195" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1580814537293" />
+    <state width="1280" height="195" key="GridCell.Tab.1.center" timestamp="1580814537293">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="195" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1580814537293" />
+    <state width="1280" height="195" key="GridCell.Tab.1.left" timestamp="1580814537293">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="195" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1580814537293" />
+    <state width="1280" height="195" key="GridCell.Tab.1.right" timestamp="1580814537293">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1280" height="195" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1580814537293" />
     <state x="160" y="0" key="SettingsEditor" timestamp="1579105497753">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="160" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1579105497753" />
-    <state x="375" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579173502212">
+    <state x="375" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580821389777">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="375" y="186" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1579173502212" />
+    <state x="375" y="186" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1580821389777" />
+    <state x="62" y="58" key="new project wizard" timestamp="1579529605041">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="62" y="58" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1579529605041" />
   </component>
 </project>

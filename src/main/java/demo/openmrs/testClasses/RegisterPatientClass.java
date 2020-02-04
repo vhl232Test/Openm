@@ -2,19 +2,24 @@ package demo.openmrs.testClasses;
 
 import demo.openmrs.pageObjectClasses.HomePage;
 import demo.openmrs.pageObjectClasses.LoginPage;
+import demo.openmrs.pageObjectClasses.PatientDataPage;
 import demo.openmrs.pageObjectClasses.RegisterPatientPage;
 import demo.openmrs.utils.Util;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class RegisterPatientClass {
     WebDriver driver;
@@ -25,6 +30,9 @@ public class RegisterPatientClass {
     Util util = new Util();
     // "FireFox"; "Opera";
     String chrome = "Chrome";
+    PatientDataPage patientDataPage;
+    FileWriter fileWriter;
+
 
     @BeforeClass
     public void setProp(){
@@ -33,6 +41,8 @@ public class RegisterPatientClass {
         loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);
         registerPatientPage = new RegisterPatientPage(driver);
+        patientDataPage = new PatientDataPage(driver);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test(priority = 0)
@@ -119,7 +129,26 @@ public class RegisterPatientClass {
         registerPatientPage.getConfirmation_label().click();
         registerPatientPage.getConfirmRegistration().click();
 
+        //запись ID пацента  в файл
+        String s = patientDataPage.getIdPatient().getText();
+        System.out.println(s);
 
+        try {
+            fileWriter = new FileWriter("src/main/resources/IdPatient",false);
+            fileWriter.write(s);
+            fileWriter.flush();
+            fileWriter.close();
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    @AfterClass
+    void closeBrowser(){
+        //util.close_Browser();
     }
 
 

@@ -16,6 +16,12 @@ public class HomePage {
     WebElement logOutButton;
     @FindBy(xpath = "//a[contains(@id,'referenceapplication-registrationapp')]")
     WebElement registerPatient;
+    @FindBy(css = "a.button")
+    WebElement findPatientRecord;
+
+    public WebElement getFindPatientRecord() {
+        return findPatientRecord;
+    }
 
     public WebElement getRegisterPatient() {
         return registerPatient;
